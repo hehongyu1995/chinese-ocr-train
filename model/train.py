@@ -180,9 +180,8 @@ def decode_batch(basemodel, word_batch):
 
 
 class VizCallback(keras.callbacks.Callback):
-    def __init__(self, output_dir, test_func, data_gen, num_display_words=4, save_model=True):
+    def __init__(self, output_dir, data_gen, num_display_words=4, save_model=True):
         self.output_dir = output_dir
-        self.test_func = test_func
         self.data_gen = data_gen
         self.num_display_words = num_display_words
         self.sava_model = save_model
@@ -229,11 +228,10 @@ def train(path='../imageLine/data', img_w=150, epochs=10, initial_epoch=0, max_s
                                   path=path,
                                   val_split_ratio=val_split_ratio,
                                   max_string_len=max_string_len)
-    m, bm, test_func = get_model(height=img_h, nclass=data_gen.get_output_size())
+    m, bm= get_model(height=img_h, nclass=data_gen.get_output_size())
 
     print("model output size:", data_gen.get_output_size())
     viz_cb = VizCallback(output_dir="/media/task0x04/data/models",
-                         test_func=test_func,
                          data_gen=data_gen.next_val(),
                          num_display_words=batch_size,
                          save_model=True)
