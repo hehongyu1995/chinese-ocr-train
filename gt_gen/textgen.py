@@ -328,7 +328,7 @@ def get_img_char(angle=(-5, 5), root='data/0', length=10):
 
 backPaths = glob.glob('./bg_img/*.png')  ##背景图像
 fonts = glob.glob('./fonts/*.*')  ##字体集
-corpusPaths = glob.glob('./corpus/sougou_news/*.txt')  ##语料库
+corpusPaths = glob.glob('./corpus/*/*.txt')  ##语料库
 maxLen = 6  ##每行字符个数
 minLen = 4
 gt_count = 0
