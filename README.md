@@ -5,3 +5,5 @@ text_gen.py为作者提供的ground truth生成脚本。我做了一点修改以
 脚本中的路径和超参数，可根据实际情况修改。
 感谢chinese-ocr作者 @wenlihaoyu 的无私分享。
 项目地址：https://github.com/chineseocr/chinese-ocr
+
+感兴趣的同学可以加我的微信：hy883835一起讨论训练成果:)
