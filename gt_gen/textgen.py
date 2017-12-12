@@ -7,9 +7,47 @@ import sys
 import numpy as np
 from  uuid import uuid1
 import os
-from custom_charset import charset,markReplaceDict
+from custom_charset import markReplaceDict
+from keys import alphabet as charset
+import time
+from random_eraser import get_random_eraser
+
+erase = get_random_eraser(p=1, s_l=0.01, s_h=0.02, r_1=0.3, r_2=1 / 0.3, v_l=0, v_h=255, pixel_level=False)
 
 
+def getRandomDateList(num=20):
+    a1 = (2000, 1, 1, 0, 0, 0, 0, 0, 0)  # 设置开始日期时间元组（2000-01-01 00：00：00）
+    a2 = (2050, 12, 30, 23, 59, 59, 0, 0, 0)  # 设置结束日期时间元组（2050-12-31 23：59：59）
+
+    start = time.mktime(a1)  # 生成开始时间戳
+    end = time.mktime(a2)  # 生成结束时间戳
+    ret = []
+    # 随机生成10个日期字符串
+    for i in range(num):
+        t = random.randint(start, end)  # 在开始和结束时间戳中随机取出一个
+        date_touple = time.localtime(t)  # 将时间戳生成时间元组
+        date = time.strftime(u"%Y-%m-%d", date_touple)  # 将时间元组转成格式化字符串（1976-05-21)
+        date = date.split(u'-')
+        date = u'{}年{}月{}日'.format(date[0], date[1], date[2])
+        ret.append(date)
+    return ret
+
+
+def getRandomId(num=20, length=10):
+    chars = [u'A', u'B', u'C', u'D', u'E', u'F', u'G', u'H', u'I', u'I', u'I', u'I', u'I', u'J', u'J', u'J', u'J', u'J',
+             u'K', u'L', u'M', u'N',
+             u'O', u'P', u'Q', u'R', u'S', u'T', u'U', u'V', u'W', u'W', u'W', u'W', u'W', u'X', u'Y', u'Z', u'1', u'1',
+             u'1', u'2', u'3',
+             u'4', u'5', u'6', u'7', u'8', u'9', u'0', u'a', u'b', u'c', u'd', u'e', u'f', u'g', u'h', u'i', u'j', u'k',
+             u'l', u'l', u'l', u'l', u'm', u'n',
+             u'o', u'p', u'q', u'r', u's', u't', u'u', u'v', u'w', u'x', u'y', u'z']
+    ret = []
+    for i in range(num):
+        id = u''
+        for j in range(length):
+            id += random.choice(chars)
+        ret.append(id)
+    return ret
 
 
 def rotate_box_tramform(lineboxes, center, angleTuple=None):
@@ -59,6 +97,13 @@ def rotate_box(angle, box, center):
     return int(xmin_), int(ymin_), int(xmax_), int(ymax_)
 
 
+def draw_underlined_text(draw, pos, text, font, **options):
+    twidth, theight = draw.textsize(text, font=font)
+    lx, ly = pos[0], pos[1] + theight
+    draw.text(pos, text, font=font, **options)
+    draw.line((lx, ly, lx + twidth, ly), width=2, **options)
+
+
 def draw_box(labels, size=(512, 512), im=None):
     """
     绘制文字
@@ -87,12 +132,13 @@ def draw_box(labels, size=(512, 512), im=None):
     # fill0,fill1,fill2 = tmpImg[:,:,0].mean(),tmpImg[:,:,1].mean(),tmpImg[:,:,2].mean()
     # fill = random.randint(0,255)
     fillmean = int(tmpImg.mean())
+    print('fill mean', fillmean)
     if fillmean < 80:
         fill = random.randint(fillmean, 255)
     else:
-        fill = random.randint(0, fillmean)
-    # fill = (fill,fill,fill)
-    fill = (0, 0, 0)
+        fill = random.randint(0, 120)
+    fill = (fill, fill, fill)
+    # fill = (random.randint(0, 100), random.randint(0, 100), random.randint(0, 100))
     # fill = (random.randint(0,int(fill0)),random.randint(0,int(fill1)),random.randint(0,int(fill2)))
     print("label_len", len(labels))
     for label in labels:
@@ -117,6 +163,7 @@ def draw_box(labels, size=(512, 512), im=None):
                     lineBox.append([cX, cY, cX + charX, cY + charY])
 
                     drawer.text(xy=(cX, cY), text=char, font=font, fill=fill)
+                    draw_underlined_text(draw=drawer, pos=(cX, cY), text=char, font=font, fill=fill)
                     chars.append(char)
                     lineChar.append(char)
 
@@ -135,10 +182,10 @@ def draw_box(labels, size=(512, 512), im=None):
                     cX, cY = initX, cY + lineMaxY + np.random.randint(0, 10)
                     if cY + charY < Y - initY:
                         drawer.text(xy=(cX, cY), text=char, font=font, fill=fill)
+                        draw_underlined_text(draw=drawer, pos=(cX, cY), text=char, font=font, fill=fill)
                         lineMaxY = charY
                         boxes.append([cX, cY, cX + charX, cY + charY])
                         lineBox.append([cX, cY, cX + charX, cY + charY])
-
                         chars.append(char)
                         lineChar.append(char)
                         cX = cX + charX
@@ -189,12 +236,14 @@ def read_text(p=None):
             data = f.read().decode('utf-8')
         data = [line.strip() for line in data.split(u'\n') if line.strip() != u'' and len(line.strip()) > 1]
         for line in data:
-            if len(line)>maxLen:
-                sub_string=[substr+u"," for substr in line.split(u'，')]
+            if len(line) > maxLen:
+                sub_string = [substr + u"," for substr in line.split(u'，')]
                 dataList.extend(sub_string)
-                sub_string = [substr+u"、" for substr in line.split(u'、')]
+                sub_string = [substr + u"、" for substr in line.split(u'、')]
                 dataList.extend(sub_string)
         dataList.extend(data)
+    dataList.extend(getRandomDateList(num=80))
+    dataList.extend(getRandomId(num=80))
     np.random.shuffle(dataList)
     return np.array(dataList)
 
@@ -280,7 +329,7 @@ def crop_img(im, boxes, textes, root):
     @@textes
     @@root:存入的路径
     """
-    print('crop_img label count: ',len(textes))
+    print('crop_img label count: ', len(textes))
     for i, box in enumerate(boxes):
         cropIm = im.crop(box)
         text = textes[i]
@@ -293,14 +342,23 @@ def write_img_text(im, text, root='data/0'):
     """
     if not os.path.exists(root):
         os.makedirs(root)
-    path = os.path.join(root, uuid1().__str__())
-    imgPath = path + '.jpg'
-    txtPath = path + '.txt'
+    path_raw = os.path.join(root, uuid1().__str__())
+    path_erase = os.path.join(root, uuid1().__str__())
+    raw_imgPath = path_raw + '.jpg'
+    raw_txtPath = path_raw + '.txt'
+    erase_imgPath = path_raw + '.jpg'
+    erase_txtPath = path_raw + '.txt'
     if len(text) <= maxLen and len(text) >= minLen or maxLen is None:
-        im.save(imgPath)
         global gt_count
-        gt_count+=1
-        with open(txtPath, 'w') as f:
+        im_erase = erase(im)
+        im_erase = erase(im_erase)
+        im.save(raw_imgPath)
+        gt_count += 1
+        im_erase.save(erase_imgPath)
+        gt_count += 1
+        with open(raw_txtPath, 'w') as f:
+            f.write(text.encode('utf-8'))
+        with open(erase_txtPath, 'w') as f:
             f.write(text.encode('utf-8'))
 
 
@@ -328,24 +386,27 @@ def get_img_char(angle=(-5, 5), root='data/0', length=10):
 
 backPaths = glob.glob('./bg_img/*.png')  ##背景图像
 fonts = glob.glob('./fonts/*.*')  ##字体集
-corpusPaths = glob.glob('./corpus/*/*.txt')  ##语料库
+corpusPaths = glob.glob('./corpus/contract/*.txt')  ##语料库
 maxLen = 6  ##每行字符个数
 minLen = 4
 gt_count = 0
 if __name__ == '__main__':
-    maxLen = 12  #最长字符长度
-    minLen = 4   #最短字符长度
-    for i in range(15000):
+    maxLen = 15  # 最长字符长度
+    minLen = 3  # 最短字符长度
+    prefix = 'contract-underline-erase'
+    for i in range(10000):
         print('Times: {}'.format(i))
         print('Ground Truth Generated: {}'.format(gt_count))
         # back : render text on custom background or not.
-        get_img_text(angle=(-1, 1), root='/media/task0x04/data/imageLine/data/chn/chn_{}-{}_with_back'.format(minLen,maxLen),
+        get_img_text(angle=(-2, 2),
+                     root='/media/task0x04/data/imageLine/data/chn/chn_{}_{}-{}_with_back'.format(prefix, minLen,
+                                                                                                  maxLen),
                      back=True)
     # maxLen =   ##每行字符个数
     # for i in range(8000):
     #     print(i)
     #     get_img_text(angle=(-1,1),root='/media/task0x04/data/imageLine/data/chn/3500-chn-8_noback', back=False)
-    #maxLen = 10  ##每行字符个数
+    # maxLen = 10  ##每行字符个数
     # for i in range(1000):
     #     print(i)
     #     get_img_text(angle=(-1, 1), root='../imageLine/data/chn-6')
