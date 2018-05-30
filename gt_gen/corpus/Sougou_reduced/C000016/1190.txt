@@ -1,0 +1,12 @@
+
+;;; 旅游咨询处：
+;;; a、慕尼黑旅游中心
+;;; 地址：Sendlinger Strasse 1
+;;; Tel.: 089 233 03 00
+;;; Email: tourismus@ems-muenchen.de
+;;; Website: www.muenchen-tourist.de 
+;;; 开门时间：&Ouml;ffnungszeiten: 11月1日到3月1日
+;;; 周一到周五： 09:00 - 19:00 
+;;; 周六： 09:00 - 16:00 
+;;; 周日： 09:00 - 14:00
+;;; 节日： 10:00 

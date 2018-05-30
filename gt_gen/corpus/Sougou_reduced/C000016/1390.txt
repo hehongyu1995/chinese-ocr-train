@@ -1,0 +1,26 @@
+;;; 汉诺威旅馆住宿;;; 青年旅舍和面向青年人的旅舍
+;;; Hannover青年旅舍
+;;; 地址：Ferd.-Wilh.-Fricke-Weg 1
+;;; 30169 Hannover
+;;; Tel: 0511/1317674
+;;; Fax: 0511/18555
+;;; E-Mail: jh-hannover@djh-hannover.de
+;;; 联系人：Eva Pritzl女士
+;;; 最近的机场：汉诺威机场 
+;;; 最近的火车站：汉诺威火车站，距离5公里。 &gt;&gt;&gt;汉诺威交通指南
+;;; 最近的电车站：三号线和七号线，最近的停靠站 Fischerhof站或者Fachhochschule站，距离1km 
+;;; 地理位置： 在公园当中。 
+;;; 到达方式：
+;;;;开车：在城市的路标上寻找"AWD-Arena"的牌子。坐车：从火车站坐电车3号线和7号线，方向Wettbergen,下车站 Fischerhof或者;;; Fachhochschule，步行约30分钟。;;; 汉诺威中高级饭店 &gt;&gt;&gt;汉诺威美食指南;;; 1、Maritim Grand Hotel Hannover
+;;; 离体育场2公里，离机场11公里，是四星级饭店
+;;; 与市政厅前的道路相对，旧城区内的饭店。客人中客商较多，作为一流饭店的设施齐备。
+;;; 地址：在Friedrichswall街11号
+;;; 费用：141－448欧元
+;;; 2、Concorde Hotel am Leineschloss
+;;; 离体育场3.5公里，离机场12公里，是三星级饭店
+;;; 莱内城堡Leineschloss附近，面对中心教堂，观光游览便利。
+;;; 地址：Am Markte 12号
+;;; 费用：106－251欧元
+;;; 3、Central Hotel Kaiserhof
+;;; 地址：Ernst August Platz 4号
+;;; 费用：102－237欧元

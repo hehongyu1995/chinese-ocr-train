@@ -9,8 +9,13 @@ from PIL import Image
 import keras.backend  as K
 import os
 from keras.models import Model
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' 
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
+from keras.callbacks import EarlyStopping,ModelCheckpoint,CSVLogger,ReduceLROnPlateau,TensorBoard
+from keras.preprocessing.image import ImageDataGenerator
 
 
+train_data_augmentation_generator = ImageDataGenerator(rotation_range=2, width_shift_range=0.02, height_shift_range=0.02, shear_range=0.01, zoom_range=0.01, rescale=None, preprocessing_function=None)
 class TrainDataGenerator(keras.callbacks.Callback):
     def __init__(self, batch_size, img_h, img_w, downsample_factor, path, val_split_ratio, max_string_len):
         # with open(charsetPath, 'rb') as fp:
@@ -23,7 +28,7 @@ class TrainDataGenerator(keras.callbacks.Callback):
         self.blank_label = self.get_output_size() - 1
         self.max_string_len = max_string_len
         self.path = path
-        self.imgfiles = sorted(glob(path + "/*/*.jpg"))
+        self.imgfiles = sorted(glob(path + "/*/*.png"))
         self.labelfiles = sorted(glob(path + "/*/*.txt"))
         print("imgs:{}".format(len(self.imgfiles)))
         print("labels:{}".format(len(self.labelfiles)))
@@ -93,6 +98,7 @@ class TrainDataGenerator(keras.callbacks.Callback):
                 # print('index:{}'.format(index))
                 # print('index+i:{}'.format(index+i))
                 X_data[i] = self.get_image(index + i)
+                X_data[i] = train_data_augmentation_generator.random_transform(X_data[i])
                 labels[i, :] = self.Y_data[index + i]
                 input_length[i] = self.img_w // self.downsample_factor - 1
                 label_length[i] = self.Y_len[index + i]
@@ -239,12 +245,22 @@ def train(path='../imageLine/data', img_w=150, epochs=10, initial_epoch=0, max_s
     if weights_path is not None:
         m.load_weights(weights_path)
     m.fit_generator(generator=data_gen.next_train(),
-                    steps_per_epoch=(data_gen.gt_num - data_gen.val_num) // batch_size - 11,
-                    epochs=epochs,
-                    # validation_data=data_gen.next_val(),
-                    # validation_steps=data_gen.val_num //batch_size-11,
-                    initial_epoch=initial_epoch,
-                    callbacks=[viz_cb, data_gen])
+            steps_per_epoch=(data_gen.gt_num - data_gen.val_num) // batch_size - 11,
+            epochs=epochs,
+            # validation_data=data_gen.next_val(),
+            # validation_steps=data_gen.val_num //batch_size-11,
+            initial_epoch=initial_epoch,
+            callbacks=[viz_cb,
+                EarlyStopping(monitor='val_loss',
+                    patience=8,
+                    verbose=1,
+                    min_delta=1e-5),
+                ReduceLROnPlateau(monitor='val_loss',
+                    factor=0.1,
+                    patience=4,
+                    verbose=1,
+                    epsilon=1e-4),
+                data_gen])
 
 
 if __name__ == '__main__':

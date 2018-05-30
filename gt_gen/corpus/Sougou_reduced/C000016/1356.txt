@@ -1,0 +1,27 @@
+
+;;; 旅馆住宿
+;;; 青年旅舍和面向青年人的旅舍
+;;;;旅店名称：自然公园和森林的青年旅社Hochspeyer 
+;;; 距离体育场10公里。
+;;; 地址：Trippstadter Stra&szlig;e街 150号
+;;; 67691 Hochspeyer
+;;; Tel: 06305/336
+;;; Fax: 06305/5152
+;;; E-Mail: hochspeyer@diejugendherbergen.de
+;;; 联系人：Frank Graus先生
+;;; 价格：13,50欧元、18,50欧元、21,00 欧元
+;;; 最近的机场：Saarbrücken机场, Zweibrücken机场
+;;; 最近的火车站：Hochspeyer 火车站 &gt;&gt;&gt;凯泽斯劳腾交通指南
+;;; 最近的公车站：6519路车，从Kaiserslautern火车站 von KL-Hbf 
+;;; 地理位置：在Hochspeyer城市的东边，在Johanniskreuz街上。 
+;;; 到达方式：
+;;;;; ;开车：高速公路A 6号 
+从曼海姆Mannheim到萨尔布吕肯Saarbrücken, 出口Enkenbach-Alsenborn, in Hochspeyer au&szlig;erhalb 
+des Ortes an der B 48 in Richtung Johanniskreuz. 
+坐车：Hochspeyer是从曼海姆Mannheim到萨尔布吕肯Saarbrücken的一站，或者从冰恩Bingen到Saarbrücken中的一站，从火车站步行30分钟，可以运送行李。
+;;; 中高级饭店
+;;; Bremerhof 
+;;; 地址：Bremerhof 1 号
+;;; 67663 Kaiserslautern
+;;; Tel: 0631 316320
+;;; Fax: 0631 3163220[详细]

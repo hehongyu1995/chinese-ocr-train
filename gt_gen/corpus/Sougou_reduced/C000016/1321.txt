@@ -1,0 +1,33 @@
+
+;;; 旅馆住宿
+;;; 青年旅舍和面向青年人的旅舍
+;;; 1、旅馆名称：Adolph Kolping青年旅舍
+;;; 离体育馆大概6公里
+;;; 地址：Silberstrasse街. 24 - 26
+;;; 44137 Dortmund
+;;; Tel: 0231/140074
+;;; Fax: 0231/142654
+;;; E-Mail: jgh-dortmund@djh-wl.de
+;;; 联系人：Wolfgang van der Sanden先生
+;;; 价格：24.4欧元、29.4欧元、34.4欧元
+;;; 最近的机场：Dortmund/Holzwickede &gt;&gt;&gt;多特蒙德交通指南
+;;; 最近的火车站：Dortmund 火车总站 
+;;; 地理位置：市中心 
+;;; 地区：鲁尔区 
+;;; 到达方式：坐火车，汽车，或开车到市中心，停车场在威斯特法伦厅 [详细]
+;;; 中高级饭店 &gt;&gt;&gt;多特蒙德推荐餐馆
+;;; 1、Hilton Dortmund 
+;;; 离体育场3公里，离机场65公里，是四星级饭店
+;;; 地址：An der Buschmühle 1 
+;;; 44139 Dortmund 
+;;; 费用：201欧元－250欧元
+;;; 2、Ibis Dortmund City
+;;; 离体育场2公里，离机场8公里，是二星级饭店
+;;; 地址：Maekische Strasse街73号
+;;; 44141 Dortmund
+;;; 费用：50欧元－100欧元
+;;; 3、Steigenberger Hotel Dortmund
+;;; 离体育场1公里，离机场15公里，是四星级饭店
+;;; 地址：Berswordtstrasse街2号 
+;;; 44139 Dortmund 
+;;; 费用：100欧元－150欧元 [详细]

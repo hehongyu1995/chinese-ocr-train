@@ -1,0 +1,20 @@
+;;; 中高级饭店
+;;; 1、Kempinski Hotel Vierjahreszeiten
+;;; 离体育场11公里，离机场35公里。
+;;; 地址：Maximilianstr.17
+;;; 电话:21250 传真:21252000
+;;; 创于1858年的最高级旅馆。餐厅和酒吧享有盛誉。单人间197～330Euro、双人间182～365Euro。
+;;; 2、Ibis Muenchen Nord Hotel
+;;; 离体育场0.4公里，离机场28公里。
+;;; 地址：Ungererstrasse 街139号
+;;; 费用：50欧元－100欧元.
+;;; 3、Holliday Inn Muenchen City Nord
+;;; 离体育场5公里，离机场30公里，是四星级饭店
+;;; 地址：Leopoldstra&szlig;e街194号
+;;; 费用：300欧元－400欧元
+;;; 4、Hotel Park Hilton
+;;; 离体育场10公里，离机场20公里。
+;;; 地址：Am Tucherpark 7
+;;; 电话:38450 传真:38451845
+;;; 
+位于英国园林旁边的现代化大型旅馆。内设啤酒花园、中国餐厅、游泳池、健身房等,设施完善。单人间149～180Euro,双人间185～260Euro。

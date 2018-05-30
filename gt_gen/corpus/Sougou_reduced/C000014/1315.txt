@@ -1,0 +1,42 @@
+
+
+自动滚动
+var theFloaters = new floaters();
+
+theFloaters.play();
+
+
+var formlist='';
+formlist=formlist+'';
+formlist=formlist+'自动滚动';
+theFloaters.addItem('formdiv2','document.body.clientWidth-106',0,formlist);
+
+theFloaters.play();
+
+TimeScrollCentAll();
+
+SetCookie("sports001centLeft","0");SetCookie("sports001centRight","0");SetCookie("sports001centTime","休息");
+
+SetCookie("sportsMenLeft"," ")
+
+SetCookie("sportsMenRight"," ")
+
+SetCookie("sports001centLeft","0");SetCookie("sports001centRight","0");SetCookie("sports001centTime","休息");
+
+SetCookie("sports001centLeft","0");SetCookie("sports001centRight","0");SetCookie("sports001centTime","上半场");
+
+SetCookie("sports001MenLeft"," ")
+
+SetCookie("sports001MenRight"," ")
+
+SetCookie("sports001centLeft","0");SetCookie("sports001centRight","0");SetCookie("sports001centTime","休息");
+
+SetCookie("sports001centLeft","0");SetCookie("sports001centRight","0");SetCookie("sports001centTime","上半场");
+
+SetCookie("sports001centLeft","0");SetCookie("sports001centRight","0");SetCookie("sports001centTime","上半场");
+
+SetCookie("sports001centLeft","0");SetCookie("sports001centRight","0");SetCookie("sports001centTime","休息");
+
+SetCookie("sports001centLeft","0");SetCookie("sports001centRight","0");SetCookie("sports001centTime","休息");
+
+搜狐直播员: 各位球迷朋友，搜狐体育网友，5月7日下午3：00，搜狐体育将文字直播中超第11轮西安

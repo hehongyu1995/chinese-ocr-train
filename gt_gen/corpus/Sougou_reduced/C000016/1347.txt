@@ -1,0 +1,8 @@
+;;; 凯泽斯劳腾旅游咨询处;;; Kaiserslautern Tourist Information
+;;; 地址：Willy-Brandt-Platz 广场1号 &gt;&gt;&gt;凯泽斯劳腾交通指南
+;;; 67657 Kaiserslautern
+;;; Tel：0631 365 2317
+;;; Fax：0631 365 2723
+;;; 开门时间：&Ouml;ffnungszeiten: 
+;;; 5月－10月
+;;; 周一到周六Mo 

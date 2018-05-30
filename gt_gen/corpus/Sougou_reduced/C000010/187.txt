@@ -1,0 +1,2 @@
+　　Open Document Format已经通过ISO国际标准组织的审核，这将是全世界ODF格式推广的重要跳板。ODF联盟执行主管Marino Marchich说到: “OpenDocument格式通过ISO批准, 是推广开放技术标准在政府部门的普及的一个重要里程碑.”
+　　ODF格式可以让不同程序、平台之间都自由的交换文件而不需要理会是何种应用程序所产生的文件，其主要的支持厂商是Corel、IBM、Opera、甲骨文、
