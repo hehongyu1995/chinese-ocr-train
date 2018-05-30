@@ -138,7 +138,7 @@ def draw_box(labels, size=(512, 512), im=None):
     # fill0,fill1,fill2 = tmpImg[:,:,0].mean(),tmpImg[:,:,1].mean(),tmpImg[:,:,2].mean()
     # fill = random.randint(0,255)
     fillmean = int(tmpImg.mean())
-    print('fill mean', fillmean)
+    #print('fill mean', fillmean)
     if fillmean < 80:
         fill = random.randint(fillmean, 255)
     else:
@@ -146,9 +146,9 @@ def draw_box(labels, size=(512, 512), im=None):
     fill = (fill, fill, fill)
     # fill = (random.randint(0, 100), random.randint(0, 100), random.randint(0, 100))
     # fill = (random.randint(0,int(fill0)),random.randint(0,int(fill1)),random.randint(0,int(fill2)))
-    print("label_len", len(labels))
+    #print("label_len", len(labels))
     for label in labels:
-        print(label)
+        #print(label)
         fontSize = random.randint(20, 50)  # 字体大小
         font = ImageFont.truetype(fontType, fontSize)
         textSize = drawer.textsize(label, font=font)
@@ -157,10 +157,10 @@ def draw_box(labels, size=(512, 512), im=None):
         lineNum = 0
         for char in label:
             if markReplaceDict.has_key(char):
-                print(u'Replace SBC case {} with {} .'.format(char, markReplaceDict[char]))
+                #print(u'Replace SBC case {} with {} .'.format(char, markReplaceDict[char]))
                 char = markReplaceDict[char]
             if charset.find(char) == -1:
-                print(u'Not found {} in charset. skip it. '.format(char))
+                #print(u'Not found {} in charset. skip it. '.format(char))
                 continue
             charX, charY = drawer.textsize(char, font=font)  ##字符所占的宽度
             if charY + cY < Y - initY:
@@ -335,7 +335,7 @@ def crop_img(im, boxes, textes, root):
     @@textes
     @@root:存入的路径
     """
-    print('crop_img label count: ', len(textes))
+    #print('crop_img label count: ', len(textes))
     for i, box in enumerate(boxes):
         cropIm = im.crop(box)
         text = textes[i]
