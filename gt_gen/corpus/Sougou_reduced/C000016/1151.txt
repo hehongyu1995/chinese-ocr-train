@@ -1,0 +1,31 @@
+
+;;; 旅馆住宿
+;;; 青年旅舍和面向青年人的旅舍
+;;; 旅舍名称：在德国数第一的纽伦堡青年旅舍Nürnberg －古堡青年旅舍
+;;; 地址：Burg街 2号
+;;; 90403 Nürnberg
+;;; Tel: 0911/2309360
+;;; Fax: 0911/23093611
+;;; E-Mail: jhnuernberg@djh-bayern.de
+;;; 联系人：Klaus M&auml;nnel先，Horst Dornberger先生
+;;; 价格：18,90 、23,20、26,50 
+;;; 最近的机场：纽伦堡机场，距离6km &gt;&gt;&gt;纽伦堡交通指南
+;;; 最近的火车站：纽伦堡火车站，距离2km 
+;;; 最近的地铁站：地铁1号线或者11号线: U 1、U 11, 站名：Lorenzkirche ，距离300m 
+;;; 最近的公车站：Bus 46/47路，站名：Maxtor，步行4分钟。[详细]
+;;; 高级和中档饭店 &gt;&gt;&gt;纽伦堡美食指南
+;;; 1、 Hilton Hotel Nuernberg
+;;; 离体育场2公里，飞机场12公里。
+;;; 地址：Valznerweiherstra&szlig;e 200号
+;;; 价格：250－300欧元
+;;; 2、 Maritim Hotel Nuernberg
+;;; 地址：Frauentorgraben 11号
+;;; 价格：137－264欧元
+;;; 这里以经商和团体客为主。
+;;; 3、 Hotel Bayerischer Hof
+;;; 地址：Gleissbuehlstrasse街15号
+;;; 价格：70－124欧元
+;;; 4、 Inter City Hotel Nuernberg
+;;; 离体育场5公里，离飞机场10公里。
+;;; 地址：Eilgusstrasse 8号
+;;; 价格：150-200欧元 [详细]

@@ -1,0 +1,179 @@
+; 
+　　前 言
+　　本讲义是按照《全国硕士研究生入学考试英语考试大纲（非英语专业）》所规定的题型和试卷结构编写的。编者力图把大纲的测试要求具体体现到课堂讲解与练习中去，以帮助广大考生深刻领会考试大纲的精神并进行有的放矢的考前复习，做到知己知彼、胸有成竹。
+　　本讲义分上、下两册，包括20次讲座，共80学时。此讲义信息量大，既有对近年典型真题的剖析，又有大量自编练习供学员操练。本着精讲多练、讲中有练、练中有讲、讲练结合的原则，授课教师通过讲解和引导使学员在学习和操练中迅速进入考研切入点，了解考试的要求、重点和难点，理解和把握试题的命题思路，提高英语的语言知识水平并掌握一整套行之有效的学习方法和应试对策，以便在2007年的考试中取得满意的成绩。
+　　此讲义每年按大纲精神和当年考题命题的新动向进行修订并得到历届学员的好评，被誉为“考研品牌大餐”。
+　　学员在辅导班上应全神贯注、认真听讲、记笔记，积极参加课堂的操练活动，课下应认真复习、按时完成教师布置的家庭作业。此外，学员可以阅读朱泰祺教授编著的《(2007)硕士研究生英语入学考试复习指导》一书作为课外参考书，以满足不同层次考生的个性化需要。
+　　预祝学员们考研成功！
+　　北京太奇培训学校教务部
+　　提高考研阅读能力的过程和规律
+　　考研阅读理解包括三项，即多项选择题、选择搭配题和英译汉，共占60分。所以，阅读理解是考研试题中的重中之重。学生提高英语阅读理解能力一般要经历四个发展阶段：
+　　1. 
+字面心译阶段，即在阅读时要通过逐词心译来理解原文。由于两种语言在句子语法结构、词语用法、语言习惯等方面存在着许多差异，这个阶段对原文的理解常会发生错误。
+　　2. 
+分析性心译阶段，即在对原文的词语和结构进行一些分析以后，再进行心译，或心译过程伴随着词语和结构的分析。这时理解力比前一阶段有所提高，但阅读速度很慢。
+　　3. 综合性心译阶段。在这个阶段由于语言水平的提高，阅读经验的积累，不经分析而直接将原文译成汉语。
+　　4. 直接理解原文阶段。在这个阶段由于语言能力的不断提高，读者的理解已进入英语思维的模式，可以直接理解原文。
+　　以上4个阶段只是大体上的划分，在实际阅读训练中，这4个阶段不是截然分割的。比如，处于第2阶段时，也不可能对每个句子都分析一遍后再来心译。第4阶段也可能伴随少量的心译，因为本族语毕竟是理解外语的媒介。
+　　了解阅读能力提高的过程有利于加速阅读能力的培养。一般来说，我们的考生是处在介乎第2和第3阶段之间。对所读的材料有时要经过查阅词典，分析心译成汉语才能达到真正的理解。这作为阅读能力提高的一个阶段是不可避免的。但要努力缩短这一阶段，防止这种阅读方法成为定势。要尽可能减少心译，以提高阅读速度，达到基本上直接理解原文的阶段。
+　　从逻辑和思维的角度看，阅读理解能力的提高是一个由浅入深、由片面到全面、由低层次到高层次的发展过程。较低层次的理解是字面理解(Read the 
+lines)。考生对所读内容只能理解字面含义。随着理解的不断深化，考生逐渐进入推断性理解层次。考生慢慢能从语篇结构的高度来审视文章内容的逻辑结构和内在联系，从而进入更深层次的理解，如从字里行间理解作者要表达的内涵(Read 
+between the lines)。最高层次是评价性阅读理解，即能理解文章内容的言外之音(Read beyond the 
+lines)，能对所读内容进行推理判断、综合归纳和客观评论。研究生英语入学考试中的阅读理解就属于这个层次。这时考生应能凭借自己的阅读经验和分析能力对所读文章和题目选项进行评价，如：选择项所传递的信息是否确切、事实是否可靠、结论是否正确以及信息的应用价值等。
+　　考研学生应具备哪些能力才能应对阅读理解考试的需要呢？
+　　1. 理解文章的主旨、抓住全文的中心思想和展开中心思想的逻辑结构和逻辑框架；
+　　2. 理解文章中的具体信息和细节；
+　　3. 理解明确或隐含表达的概念性含义；
+　　4. 进行有关内容的推理、归纳和引申；
+　　5. 根据上下文推测不熟悉词语的含义；
+　　6. 理解作者的写作目的、态度、语气及文章的基调；
+　　7. 以上各项能力要求必须在规定的时间内完成。
+　　滴水穿石，贵在坚持。我相信，通过我们师生的共同努力，学员的阅读理解能力定会不断提高。
+　　朱泰祺
+　　朱泰祺春季强化班辅导讲义(一)
+
+　　2007北京太奇培训学校考研英语强化班授课讲义(一)
+　　Text I [2006, RC Text 1]
+　　In spite of "endless talk of difference," American society is an amazing 
+machine for homogenizing people. There is "the democratizing uniformity of dress 
+and discourse, and the casualness and absence of deference" characteristic of 
+popular culture. People are absorbed into "a culture of consumption" launched by 
+the 19th-century department stores that offered "vast arrays of goods in an 
+elegant atmosphere. Instead of intimate shops catering to a knowledgeable elite" 
+these were stores "anyone could enter, regardless of class or background. This 
+turned shopping into a public and democratic act." The mass media, advertising 
+and sports are other forces for homogenization.
+　　Immigrants are quickly fitting into this common culture, which may not be 
+altogether elevating but is hardly poisonous. Writing for the National 
+Immigration Forum, Gregory Rodriguez reports that today’s immigration is neither 
+at unprecedented levels nor resistant to assimilation. In 1998 immigrants were 
+9.8 percent of the population; in 1900, 13.6 percent. In the 10 years prior to 
+1990, 3.1 immigrants arrived for every 1,000 residents; in the 10 years prior to 
+1890, 9.2 for every 1,000. Now, consider three indices of assimilation -- 
+language, home ownership and intermarriage.
+　　The 1990 Census revealed that "a majority of immigrants from each of the 
+fifteen most common countries of origin spoke English ‘well’ or ‘very well’ 
+after ten years of residence." The children of immigrants tend to be bilingual 
+and proficient in English. "By the third generation, the original language is 
+lost in the majority of immigrant families." Hence the description of America as 
+a "graveyard" for languages. By 1996 foreign-born immigrants who had arrived 
+before 1970 had a home ownership rate of 75.6 percent, higher than the 69.8 
+percent rate among native-born Americans.
+　　Foreign-born Asians and Hispanics "have higher rates of intermarriage than 
+do U.S.-born whites and blacks." By the third generation, one third of Hispanic 
+women are married to non-Hispanics, and 41 percent of Asian-American women are 
+married to non-Asians.
+　　Rodriguez notes that children in remote villages around the world are fans 
+of superstars like Arnold Schwarzenegger and Garth Brooks, yet "some Americans 
+fear that immigrants living within the United States remain somehow immune to 
+the nation’s assimilative power."
+　　Are there divisive issues and pockets of seething anger in America? Indeed. 
+It is big enough to have a bit of everything. But particularly when viewed 
+against America’s turbulent past, today’s social indices hardly suggest a dark 
+and deteriorating social environment. (400 words)
+　　Notes: homogenize vt. 使匀质。uniformity n. 千篇一律，无变化。discourse n. 
+讲演；会话；论文。deference n. 遵从，服从，顺从。an array of (=arrays of) 一系列；大量。elegant adj. 
+高雅的。cater to v. 迎合；满足。regardless of 不管，不顾。fit into 适合；符合。elevating adj. 
+提高思想修养的。poisonous adj. 有毒的；败坏道德的。forum n. 论坛。unprecedented adj. 前所未有的。prior to 
+在…以前。index n. [pl.] indices(=indexes) 索引；指数；标志。 intermarriage 
+n.（种族、宗教等之间的）通婚。countries of origin 起源国。bilingual adj. 能说两种语的。proficient adj. 
+精通的，熟练的。graveyard n. 墓地，坟场。Hispanic n. 西班牙的；拉丁美洲的（说西班牙语的）。seethe vi. 因 … 
+而骚动。
+　　1. The word "homogenizing" (Line 1, Paragraph 1) most probably means
+　　[A] identifying. [B] associating. [C] assimilating. [D] monopolizing.
+　　2. According to the author, the department stores of the 19th century
+　　[A] played a role in the spread of popular culture. [B] became intimate 
+shops for common consumers.
+　　[C] satisfied the needs of a knowledgeable elite. [D] owed its emergence to 
+the culture of consumption.
+　　3. The text suggests that immigrants now in the U.S.
+　　[A] are resistant to homogenization. [B] exert a great influence on 
+American culture.
+　　[C] are hardly a threat to the common culture. [D] constitute the majority 
+of the population.
+　　4. Why are Arnold Schwarzenegger and Garth Brooks mentioned in Paragraph 
+5?
+　　[A] To prove their popularity around the world. [B] To reveal the public's 
+fear of immigrants.
+　　[C] To give examples of successful immigrants. [D] To show the powerful 
+influence of American culture.
+　　5. In the author’s opinion, the absorption of immigrants into American 
+society is
+　　[A] rewarding. [B] successful. [C] fruitless. [D] harmful.
+　　Text 2 [2005, RC Text 1]
+　　Everybody loves a fat pay rise. Yet pleasure at your own can vanish if you 
+learn that a colleague has been given a bigger one. Indeed, if he has a 
+reputation for slacking, you might even be outraged. Such behaviour is regarded 
+as “all too human", with the underlying assumption that other animals would not 
+be capable of this finely developed sense of grievance. But a study by Sarah 
+Brosnan and Frans de Waal of Emory University in Atlanta, Georgia, which has 
+just been published in Nature,suggests that it is all too monkey, as well.
+　　The researchers studied the behaviour of female brown capuchin monkeys. 
+They look cute. They are good-natured, co-operative creatures, and they share 
+their food readily. Above all, like their female human counterparts, they tend 
+to pay much closer attention to the value of “goods and services” than 
+males.
+　　Such characteristics make them perfect candidates for Dr. Brosnan's and Dr. 
+de Waal's study. The researchers spent two years teaching their monkeys to 
+exchange tokens for food. Normally, the monkeys were happy enough to exchange 
+pieces of rock for slices of cucumber. However, when two monkeys were placed in 
+separate but adjoining chambers, so that each could observe what the other was 
+getting in return for its rock, their behaviour became markedly different.
+　　In the world of capuchins, grapes are luxury goods (and much preferable to 
+cucumbers). So when one monkey was handed a grape in exchange for her token, the 
+second was reluctant to hand hers over for a mere piece of cucumber. And if one 
+received a grape without having to provide her token in exchange at all, the 
+other either tossed her own token at the researcher or out of the chamber, or 
+refused to accept the slice of cucumber. Indeed, the mere presence of a grape in 
+the other chamber (without an actual monkey to eat it) was enough to induce 
+resentment in a female capuchin.
+　　The researchers suggest that capuchin monkeys, like humans, are guided by 
+social emotions. In the wild, they are a co-operative, group-living species. 
+Such co-operation is likely to be stable only when each animal feels it is not 
+being cheated. Feelings of righteous indignation, it seems, are not the preserve 
+of people alone. Refusing a lesser reward completely makes these feelings 
+abundantly clear to other members of the group. However, whether such a sense of 
+fairness evolved independently in capuchins and humans, or whether it stems from 
+the common ancestor that the species had 35 million years ago, is, as yet, an 
+unanswered question. (426 words)
+　　1. In the opening paragraph, the author introduces his topic by
+　　[A] posing a contrast. [B] justifying an assumption.
+　　[C] making a comparison. [D] explaining a phenomenon.
+　　2. The statement "it is all too monkey" (Last line, Paragraph-1) implies 
+that
+　　[A] monkeys are also outraged by slack rivals.
+　　[B] resenting unfairness is also monkeys' nature.
+　　[C] monkeys, like humans, tend to be jealous of each other.
+　　[D] no animals other than monkeys can develop such emotions.
+　　3. Female capuchin monkeys were chosen for the research most probably 
+because they are
+　　[A] more inclined to weigh what they get. [B] attentive to researchers' 
+instructions.
+　　[C] nice in both appearance and temperament. [D] more generous than their 
+male companions.
+　　4. Dr. Brosnan and Dr. de Waal have eventually found in their study that 
+the monkeys
+　　[A] prefer grapes to cucumbers. [B] can be taught to exchange things.
+　　[C] will not be co-operative if feeling cheated. [D] are unhappy when 
+separated from others.
+　　5. What can we infer from the last paragraph?
+　　[A] Monkeys can be trained to develop social emotions.
+　　[B] Human indignation evolved from an uncertain source.
+　　[C] Animals usually show their feelings openly as humans do.
+　　[D] Cooperation among monkeys remains stable only in the wild.
+　　Text 3
+　　The war on drugs in the United States is an escalating battle that has, as 
+of recent times, reached unprecedented levels. In every city and state across 
+the nation, law enforcement officials are working around the clock to eradicate 
+the illegal use, possession and distribution of controlled substances at all 
+levels of society. The increasing devotion of resources and efforts to the 
+battle has achieved mixed results.
+　　A growing amount of money is being devoted to the funding of the war on 
+drugs as time progresses. At last count, 19.2 billion dollars was being spent 
+annually on the ongoing struggle, consisting of pay for law enforcement 
+officials, education, treatment and other uses. This staggering amount 
+translates into a stunning 609 dollars per second.
+　　Results are being achieved. An arrest for drug-related offenses occurs 
+every 20 seconds, and 648 people are put in prison
+　　every day on drug-related charges. These numbers illustrate the prevailing 
+tactic used by the U.S. government in the war against drugs 

@@ -1,0 +1,28 @@
+;;; 高级饭店
+;;; 1、Kempinski Hotel Fuerstenhof Leipzig
+;;; 离体育场3公里，离机场20公里，是四星级饭店
+;;; 地址：Troendlinring街8号 
+;;; 费用：130欧元－165欧元
+;;; 2、Hotel Mercure Leipzig
+;;; 离体育场2公里，离机场18公里，是三星级饭店
+;;; 地址：Augustusplatz 5－6号
+;;; 费用：54－114欧元
+;;; 3、Renaissance Leipzig Hotel
+;;; 离体育场2公里，离机场18公里，是四星级饭店
+;;; 地址：Grosser Brockhaus街3号
+;;; 费用：86－250欧元
+;;; 内装修富有南国度假村的情调，房间宽敞舒适。在观光便利的地区。连续住宿和周末有优惠。
+;;; 4、Holliday Inn Garden Court 
+;;; 离体育场3公里，离机场18公里，是四星级饭店
+;;; 地址：Rudolf-Breitscheid-Strasse街3号 ，从火车站西口Westhalle一侧出来就是，设备现代，房间稍小。
+;;; 费用：150欧元－200欧元
+;;; 5、Ibis
+;;; 离体育场2.5公里，离机场20公里，是二星级饭店
+;;; 地址：Bruehl 街69号
+;;; 费用：76欧元－84欧元
+;;; 旅馆住宿
+;;; Leipzig Zentrum 
+;;; 地址：Volksgartenstrasse 街24号
+;;; 04347 Leipzig －Schoenefeld
+;;; Tel: 0341-245700
+;;; 价格：17,50欧元、22,00 欧元、26,50 欧元 [详细]

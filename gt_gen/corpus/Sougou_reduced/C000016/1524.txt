@@ -1,0 +1,14 @@
+;;; 住宿介绍;;;;;;;; 法兰克福的旅馆层次分明，旅行者大都能在这里找到合适自己的旅馆。格调高雅的迎宾馆费用较高；博览会会场附近有适合商务和团体旅客的马丽特饭店；在火车总站对面有钻石王冠旅店，博览会期间价格上调；不懂英语和德语的游客能在可里司多饭店入住；需要感受一下留学生心情的话，则可以去Persion Backer看一看。;;; 旅馆住宿;;; 青年旅舍和面向青年人的旅舍 
+;;; 法兰克福青年旅社JH Frankfurt -青年之家 Haus der Jugend 
+;;; 离体育馆大概6公里 &gt;&gt;&gt;法兰克福交通指南
+;;; 地址：Deutschherrnufer街 12号 
+;;; 60594 Frankfurt/Main 
+;;; Tel: 069/6100150 
+;;; Fax: 069/61001599 
+;;; E-Mail: jugendherberge-frankfurt@t-online.de 
+;;; 联系人:Rudolf Kraus先生 [详细]
+;;; 中高级饭店
+;;; Hotel Steigenberger Frankfurter Hof 
+;;; 离体育场7公里，离机场14公里，是五星级饭店 
+;;; 地址：在 Kaiserplatz广场 
+;;; 费用：143－362欧元 [详细]

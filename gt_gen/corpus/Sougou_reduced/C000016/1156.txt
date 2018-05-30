@@ -1,0 +1,30 @@
+
+;;; 高级和中档饭店
+;;; 1、 Hilton Hotel Nuernberg
+;;; 离体育场2公里，飞机场12公里。
+;;; 地址：Valznerweiherstra&szlig;e 200号
+;;; 价格：250－300欧元
+;;; 2、 Maritim Hotel Nuernberg
+;;; 地址：Frauentorgraben 11号
+;;; 价格：137－264欧元
+;;; 这里以经商和团体客为主。
+;;; 3、 Hotel Bayerischer Hof
+;;; 地址：Gleissbuehlstrasse街15号
+;;; 价格：70－124欧元
+;;; 4、 Inter City Hotel Nuernberg
+;;; 离体育场5公里，离飞机场10公里。
+;;; 地址：Eilgusstrasse 8号
+;;; 价格：150-200欧元
+;;; 5、 City Hotel
+;;; 地址：Koenigstrasse.街25号－27号
+;;; 价格：48－96欧元
+;;; 6、Grand Hotel Nuernberg
+;;; 地址：Bahnhofstrasse街1－3号
+;;; 价格：121－286欧元
+;;; 是充满古代欧洲氛围的高档饭店。
+;;; 旅馆住宿
+;;; 旅舍名称：在德国数第一的纽伦堡青年旅舍Nürnberg －古堡青年旅舍
+;;; 地址：Burg街 2号
+;;; 90403 Nürnberg
+;;; Tel: 0911/2309360
+;;; 价格：18,90 、23,20、26,50 [详细]

@@ -1,0 +1,11 @@
+;;; 旅游咨询处：
+;;; 多特蒙德旅游协会Verkehrsverein Dortmund e. V.
+;;; 地址 K&ouml;nigswall 18a 
+;;; 44137 Dortmund 
+;;; 电话：0231 / 18999-222 ，0231 / 18999-333 
+;;; info@dortmund-tourismus.de 
+;;; 网址：http://www.dortmund-tourismus.de 
+;;; 市内交通指南
+;;; 机场 多特蒙德机场
+;;; 火车 多特蒙德火车站
+;;; 市内交通 可以乘坐公共汽车到达市内和近郊各处 [详细]

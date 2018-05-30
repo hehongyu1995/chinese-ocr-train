@@ -1,0 +1,30 @@
+中高级饭店
+;;; 1、Hotel Steigenberger Frankfurter Hof 
+;;; 离体育场7公里，离机场14公里，是五星级饭店 
+;;; 地址：在 Kaiserplatz广场 
+;;; 费用：143－362欧元 
+;;; 2、Abrabella Grand Hotel 
+;;; 地址：Konrad－Adenauer－Strasse街7号 
+;;; 费用：246－387欧元 
+;;; 3、Hotel Inercontinental Frankfurt 
+;;; 离体育场6公里，离机场10公里，是四星级饭店 
+;;; 地址：Wihelm Leuschner Strasse街43号 
+;;; 费用：214－376欧元 
+;;; 4、Hotel Excelsior 
+;;; 地址：Mannheimer Str街7－9号 ，在火车站的右边。 
+;;; 费用：201欧元－250欧元 
+;;; 5、Wald Hotel (Hensels Felsenkeller) 
+;;; 地址：Buchrain Strasse街95号,在火车站乘坐15号电车到Buchrain Strasse街，再步行8分钟即到。 
+;;; 费用：50欧元－100欧元 
+;;; 6、Hotel Pension Backer 
+;;; 地址：Meldelsohn Strasse街92号，出火车站左前方步行约10分钟。 
+;;; 费用：100欧元－150欧元 
+;;; 7、Hotel Atlas 
+;;; 地址：Zimmerweg 街1号,出火车站直行至Landstrasse街向左转。 
+;;; 费用：50欧元－100欧元 
+一般旅馆住宿;;; 法兰克福青年旅社JH Frankfurt -青年之家 Haus der Jugend 
+;;; 离体育馆大概6公里 
+;;; 地址：Deutschherrnufer街 12号 
+;;; 60594 Frankfurt/Main 
+;;; Tel: 069/6100150 
+;;; Fax: 069/61001599 [详细]

@@ -1,0 +1,23 @@
+
+;;; 中高级饭店
+;;; 1、Hotel Vier Jahreszeiten
+;;; 离体育场9公里，离机场18公里
+;;; 地址：Neuer Jungfernsttieg街9－14号 &gt;&gt;&gt;汉堡交通指南
+;;; 费用：143－362欧元
+;;; 2、Marriott Hotel
+;;; 离体育场12公里，离机场15公里，是五星级饭店
+;;; 地址：ABC－Strasse街52号
+;;; 费用：246－387欧元
+;;; 3、Kempinski Hotel Atlantic
+;;; 离体育场10公里，离机场12公里，是五星级饭店
+;;; 地址：An der Alster街72号
+;;; 费用：214－376欧元
+;;; 4、Hotel Graf Moltke 
+;;; 离体育场10公里，离机场12公里
+;;; 地址：Steindamm街1号 ，距火车站只有15分钟的漂亮的小饭店。
+;;; 费用：201欧元－250欧元
+;;; 5、Hotel－Pension Selig
+;;; 地址：Bremer Reihe街23号, 从火车站东侧出来，对面Bremer Reihe旁边。
+;;; 费用：50欧元－100欧元
+;;; 旅馆住宿
+;;; 汉堡青年旅社 

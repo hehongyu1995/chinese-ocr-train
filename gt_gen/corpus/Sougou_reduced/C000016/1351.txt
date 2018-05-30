@@ -1,0 +1,24 @@
+;;; 美食：
+;;; 法尔茨特产：葡萄酒和用肉冻制成的猪肉肠。;;; 推荐餐馆：
+;;; 1、Uwe's Tomate
+;;; 地点：Schillerplatz 4号
+;;; 67655 Kaiserslautern
+;;; Tel: 0631 93406
+;;; 特点：各国的风味菜
+;;; 2、Twenty-One
+;;; 地点：Willy-Brandt-Platz 1号
+;;; 67657 Kaiserslautern
+;;; Tel: 0631 3204370
+;;; 特点：在市政厅的第21层，可以观赏整个城市的风光，是休闲喝酒的好去处。
+;;; 3、Spinnr&auml;dl
+;;; 地址：Schillerstra&szlig;e 1号
+;;; 67655 Kaiserslautern
+;;; Tel: 0631 60511
+;;; Fax: 0631 3608895
+;;; 特点：城市当中木制结构的宫廷酒馆。
+;;; 4、Hotel Restaurant Blechhammer
+;;; 地址：Am Hammerweiher 1号
+;;; 67659 Kaiserslautern
+;;; Tel: 0631 37250
+;;; Fax: 0631 3725100位于湖边的啤酒花园。
+;;; &gt;&gt;&gt;凯泽斯劳腾中高级饭店

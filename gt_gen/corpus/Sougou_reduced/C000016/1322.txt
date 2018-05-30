@@ -1,0 +1,27 @@
+;;; 中高级饭店
+;;; 1、Hilton Dortmund 
+;;; 离体育场3公里，离机场65公里，是四星级饭店
+;;; 地址：An der Buschmühle 1 
+;;; 44139 Dortmund 
+;;; 费用：201欧元－250欧元
+;;; 2、Ibis Dortmund City
+;;; 离体育场2公里，离机场8公里，是二星级饭店
+;;; 地址：Maekische Strasse街73号
+;;; 44141 Dortmund
+;;; 费用：50欧元－100欧元
+;;; 3、Steigenberger Hotel Dortmund
+;;; 离体育场1公里，离机场15公里，是四星级饭店
+;;; 地址：Berswordtstrasse街2号 
+;;; 44139 Dortmund 
+;;; 费用：100欧元－150欧元
+;;; 4、Ibis Dortmund West
+;;; 离体育场5公里，离机场25公里，是二星级饭店
+;;; 地址：Sorbenweg街2号
+;;; 44149 Dortmund
+;;; 费用：50欧元－100欧元
+;;; 旅馆住宿
+;;; 旅馆名称：Adolph Kolping青年旅舍
+;;; 地址：Silberstrasse街. 24 - 26
+;;; 44137 Dortmund
+;;; Tel: 0231/140074
+;;; 价格：24.4欧元、29.4欧元、34.4欧元 [详细]
