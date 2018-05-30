@@ -41,6 +41,12 @@ def getRandomId(num=20, length=10):
              u'4', u'5', u'6', u'7', u'8', u'9', u'0', u'a', u'b', u'c', u'd', u'e', u'f', u'g', u'h', u'i', u'j', u'k',
              u'l', u'l', u'l', u'l', u'm', u'n',
              u'o', u'p', u'q', u'r', u's', u't', u'u', u'v', u'w', u'x', u'y', u'z']
+##remove IOZSV and lower case
+#    chars = [u'A', u'B', u'C', u'D', u'E', u'F', u'G', u'H', u'J',
+#             u'K', u'L', u'M', u'N',
+#             u'P', u'Q', u'R', u'S', u'T', u'U', u'W', u'X', u'Y',
+#             u'1', u'2', u'3',
+#             u'4', u'5', u'6', u'7', u'8', u'9', u'0']
     ret = []
     for i in range(num):
         id = u''
@@ -344,9 +350,9 @@ def write_img_text(im, text, root='data/0'):
         os.makedirs(root)
     path_raw = os.path.join(root, uuid1().__str__())
     path_erase = os.path.join(root, uuid1().__str__())
-    raw_imgPath = path_raw + '.jpg'
+    raw_imgPath = path_raw + '.png'
     raw_txtPath = path_raw + '.txt'
-    erase_imgPath = path_raw + '.jpg'
+    erase_imgPath = path_raw + '.png'
     erase_txtPath = path_raw + '.txt'
     if len(text) <= maxLen and len(text) >= minLen or maxLen is None:
         global gt_count
@@ -390,18 +396,20 @@ corpusPaths = glob.glob('./corpus/contract/*.txt')  ##语料库
 maxLen = 6  ##每行字符个数
 minLen = 4
 gt_count = 0
+from multiprocessing import Pool
+from tqdm import tqdm
 if __name__ == '__main__':
     maxLen = 15  # 最长字符长度
     minLen = 3  # 最短字符长度
     prefix = 'contract-underline-erase'
-    for i in range(10000):
-        print('Times: {}'.format(i))
-        print('Ground Truth Generated: {}'.format(gt_count))
-        # back : render text on custom background or not.
+    def get_img_text_for_multiple_process2(i):
         get_img_text(angle=(-2, 2),
                      root='/media/task0x04/data/imageLine/data/chn/chn_{}_{}-{}_with_back'.format(prefix, minLen,
                                                                                                   maxLen),
                      back=True)
+        return 0
+    p = Pool()
+    r = list(tqdm(p.imap(get_img_text_for_multiple_process2, range(10000)), total=10000))
     # maxLen =   ##每行字符个数
     # for i in range(8000):
     #     print(i)
